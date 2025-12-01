@@ -8,7 +8,7 @@ import MicrophoneButton from './MicrophoneButton'
 import MemorySidebar from './MemorySidebar'
 import VoiceVisualizer from './VoiceVisualizer'
 import { chatAPI, getAudioUrl } from '@/lib/api'
-import { Message, Memory } from '@/lib/types'
+import { Message, Memory } from '@/lib/types' 
 import { useAudioRecorder } from '@/hooks/useAudioRecorder'
 
 export default function ChatInterface() {
