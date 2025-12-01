@@ -7,7 +7,7 @@ deactivate () {
         PATH="${_OLD_VIRTUAL_PATH:-}"
         export PATH
         unset _OLD_VIRTUAL_PATH
-    fi
+    fi 
     if [ -n "${_OLD_VIRTUAL_PYTHONHOME:-}" ] ; then
         PYTHONHOME="${_OLD_VIRTUAL_PYTHONHOME:-}"
         export PYTHONHOME
